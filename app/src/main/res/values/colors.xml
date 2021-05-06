@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffe400</color>
+    <color name="colorPrimaryDark">#ffa600</color>
+    <color name="colorAccent">#272727</color>
+
+    <color name="lightwhite">#f5f5f5</color>
+    <color name="White">#fff</color>
+    <color name="Black">#000</color>
+    <color name="Black1">#000000FF</color>
+
+    <color name="MoonLightBites1_lightwhite">#4a4e4d</color>
+    <color name="MoonLightBites2_blueLight">#0e9aa7</color>
+    <color name="MoonLightBites3_blue"> #3da4ab</color>
+    <color name="MoonLightBites4_orange"> #f6cd61</color>
+    <color name="MoonLightBites5_pink">#FF7C5F</color>
+
+
+    <color name="Rainbow_Dash_red">  #ee4035</color>
+    <color name="Rainbow_Dash1_orange">   #f37736</color>
+    <color name="Rainbow_Dash2_yelow">    #fdf498</color>
+    <color name="Rainbow_Dash3_green">   #7bc043</color>
+    <color name="Rainbow_Dash4_blue">  #0392cf</color>
+
+
+
+    <color name="Google_Colors_green">  #008744</color>
+    <color name="Google_Colors_blue">  #0057e7</color>
+    <color name="Google_Colors_red">  #d62d20</color>
+    <color name="Google_Colors_orange">  #ffa700</color>
+    <color name="Google_Colors_whitw">  #ffffff</color>
+
+</resources>

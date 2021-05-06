@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFED58"
+    tools:context=".ParentalAcessActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="Parental Acess"
+            android:textStyle="bold"
+            android:fontFamily="@font/muli_bold"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="@color/Black"
+            android:gravity="center_horizontal">
+
+        </TextView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                android:text="Please Enter Your PIN"
+                android:gravity="center_horizontal" />
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+
+                android:textStyle="italic"
+                android:textSize="17sp"
+                android:textColor="@color/Black"
+                android:text="This Section is Pin Protected \n" />
+
+            <EditText
+                android:id="@+id/loanfacilitaion_enter"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:hint="PD17J..."
+
+                android:layout_marginBottom="30dp"
+
+                android:background="#938A3D">
+
+            </EditText>
+            <Button
+                android:id="@+id/applyloanProceed"
+                android:layout_width="match_parent"
+
+                android:text="Proceed"
+                android:onClick="Proceed"
+                android:background="#F43D2F"
+                android:textColor="@color/White"
+
+
+                android:layout_height="wrap_content">
+
+            </Button>
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

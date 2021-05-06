@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Train4Us</string>
+
+    <string name="Weights">
+         <a href="https://www.amazon.co.uk/BESPORTBLE-Children-Dumbbells-Excercise-Equipments/dp/B086MRQBPB/ref=sr_1_21?dchild=1&amp;keywords=childrens+weights&amp;qid=1617106639&amp;sr=8-21"> Weights </a>
+    </string>
+
+    <string name="Yoga_mat">
+         <a href="https://www.amazon.co.uk/Myga-Childrens-Yoga-Mat-Exercise/dp/B07S1NMQP1/ref=sr_1_5?dchild=1&amp;keywords=childrens+yoga+mat&amp;qid=1617106715&amp;sr=8-5"> Yoga mat</a>
+    </string>
+
+    <string name="Hula_hoops">
+         <a href="https://www.amazon.co.uk/Removable-Plastic-Massage-Exercise-Body-Building/dp/B089PXSJG9/ref=sr_1_4_sspa?crid=244EB2NOFHLC9&amp;dchild=1&amp;keywords=hoola+hoop+children&amp;qid=1617106767&amp;sprefix=hoola+hoop+ch%2Caps%2C153&amp;sr=8-4-spons&amp;psc=1&amp;spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFXNjZVSlRJR1ZFUEomZW5jcnlwdGVkSWQ9QTAyOTg0NTQyNFlMOFdOTVBXVlpMJmVuY3J5cHRlZEFkSWQ9QTAyOTU2MDYyWDBPWU4zRjZSWVJDJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==
+"> Hula hoops </a>
+    </string>
+
+    <string name="Football">
+         <a href="https://www.amazon.co.uk/Senston-Football-Official-Training-Adults/dp/B08DFJ3C85/ref=sr_1_24?dchild=1&amp;keywords=football&amp;qid=1617106896&amp;sr=8-24"> Football </a>
+    </string>
+
+    <string name="Bouncy_hopper">
+         <a href="https://www.amazon.co.uk/B-toys-Light-Up-Bouncy-Included/dp/B01FFYLURM/ref=sr_1_2_sspa?dchild=1&amp;keywords=bouncy+hopper&amp;qid=1617106956&amp;sr=8-2-spons&amp;psc=1&amp;spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExTUg2TUlRNDdBSlVSJmVuY3J5cHRlZElkPUEwNDIyODI0MTA4MTZRVFpBTzJZMiZlbmNyeXB0ZWRBZElkPUEwNDAzNTQ2MlpJNjUzODdNQ09UVyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="> Bouncy hopper</a>
+    </string>
+</resources>

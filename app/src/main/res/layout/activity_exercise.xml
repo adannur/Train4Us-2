@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFC1AD"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ExerciseActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:fontFamily="@font/muli_bold"
+            android:textColor="@color/Black"
+            android:text="Exercises">
+
+        </TextView>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            android:orientation="horizontal">
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="170dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="12sp"
+                   android:textAlignment="center"
+                   android:fontFamily="@font/muli_bold"
+                   android:textColor="@color/Black"
+                   android:text="Running – perfect for all age groups, can take use of the house garden and do fun activities such as tag, and racing. Or even stay inside for high intensity jogging on the spot. Best enjoyed with the company of your favorite tunes."
+                   android:gravity="center_horizontal">
+
+               </TextView>
+              
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="2dp"
+                  android:orientation="horizontal">
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="4dp"
+                      android:textSize="12sp"
+                      android:layout_marginRight="5dp"
+                      android:fontFamily="@font/muli_bold"
+                      android:textColor="@color/Black"
+                      android:text="Difficulity Level">
+
+                  </TextView>
+                  <RatingBar
+
+                      android:layout_width="85dp"
+                      android:layout_height="wrap_content"
+                      android:isIndicator="false"
+                      android:layout_marginTop="4dp"
+
+                      android:numStars="5"
+                      android:rating   = "1"
+                      android:layout_centerInParent="true"
+                      android:padding="2dp"
+                      style="?android:attr/ratingBarStyleSmall"
+                      >
+
+                  </RatingBar>
+              </LinearLayout>
+
+           </LinearLayout>
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="180dp"
+                    android:layout_height="165dp"
+                android:textSize="30sp"
+                android:fontFamily="@font/muli_bold"
+                android:background="@drawable/running"
+                android:textColor="@color/Black"
+                android:text="Excercise">
+
+            </ImageView>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/muli_bold"
+                        android:textColor="@color/Black"
+                        android:text="Push ups – Strengthens your arm and back muscles! A superhero favorite. Can be difficult to begin but worth it in the long run. Make sure its done with proper form! Be sure to take milk for those extra gains."
+                        android:gravity="center_horizontal">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+                            android:fontFamily="@font/muli_bold"
+                            android:textColor="@color/Black"
+                            android:text="Difficulity Level">
+
+                        </TextView>
+                        <RatingBar
+
+                            android:layout_width="85dp"
+                            android:layout_height="wrap_content"
+                            android:isIndicator="false"
+                            android:layout_marginTop="4dp"
+
+                            android:numStars="5"
+                            android:rating   = "4"
+                            android:layout_centerInParent="true"
+                            android:padding="2dp"
+                            style="?android:attr/ratingBarStyleSmall"
+                            >
+
+                        </RatingBar>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="180dp"
+                    android:layout_height="153dp"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/muli_bold"
+                    android:background="@drawable/pushups"
+                    android:textColor="@color/Black"
+                    android:text="Excercise">
+
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="11sp"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/muli_bold"
+                        android:textColor="@color/Black"
+                        android:text="Star jumps – Uses a lot of energy up, very simple to perform. Start by jumping into a ”star shape” spreading those arms and legs wide! Then jump back into a still pose with your legs straight and arms by your side, keep repeating. Great fun the faster you go!"
+                        android:gravity="center_horizontal">
+
+                    </TextView>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+                            android:fontFamily="@font/muli_bold"
+                            android:textColor="@color/Black"
+                            android:text="Difficulity Level">
+
+                        </TextView>
+                        <RatingBar
+
+                            android:layout_width="85dp"
+                            android:layout_height="wrap_content"
+                            android:isIndicator="false"
+                            android:layout_marginTop="4dp"
+
+                            android:numStars="5"
+                            android:rating   = "3"
+                            android:layout_centerInParent="true"
+                            android:padding="2dp"
+                            style="?android:attr/ratingBarStyleSmall"
+                            >
+
+                        </RatingBar>
+                    </LinearLayout>                </LinearLayout>
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="180dp"
+                    android:layout_height="160dp"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/muli_bold"
+                    android:background="@drawable/starjumps"
+                    android:textColor="@color/Black"
+                    android:text="Excercise">
+
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/muli_bold"
+                        android:textColor="@color/Black"
+                        android:text="Burpees – The most tiring exercise yet ! Stand with your feet shoulder-width apart and your arms by your sides. Lower into a squat position and place your hands on the floor. Kick or step your legs back into a plank position. Jump or step your legs forward to return to a squat position. Return to the standing position and repeat but try not to tire yourself (impossible)."
+                        android:gravity="center_horizontal">
+
+                    </TextView>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+                            android:fontFamily="@font/muli_bold"
+                            android:textColor="@color/Black"
+                            android:text="Difficulity Level">
+
+                        </TextView>
+                        <RatingBar
+
+                            android:layout_width="85dp"
+                            android:layout_height="wrap_content"
+                            android:isIndicator="false"
+                            android:layout_marginTop="4dp"
+
+                            android:numStars="5"
+                            android:rating   = "5"
+                            android:layout_centerInParent="true"
+                            android:padding="2dp"
+                            style="?android:attr/ratingBarStyleSmall"
+                            >
+
+                        </RatingBar>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="180dp"
+                    android:layout_height="165dp"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/muli_bold"
+                    android:background="@drawable/bupees"
+                    android:textColor="@color/Black"
+                    android:text="Excercise">
+
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/muli_bold"
+                        android:textColor="@color/Black"
+                        android:text="Planks - Lay on the floor with your elbows under your shoulders, hands flat on the floor and stomach straight, hold that position for as long as you can (bonus points if you reach a minute)."
+                        android:gravity="center_horizontal">
+
+                    </TextView>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+                            android:fontFamily="@font/muli_bold"
+                            android:textColor="@color/Black"
+                            android:text="Difficulity Level">
+
+                        </TextView>
+                        <RatingBar
+
+                            android:layout_width="85dp"
+                            android:layout_height="wrap_content"
+                            android:isIndicator="false"
+                            android:layout_marginTop="4dp"
+
+                            android:numStars="5"
+                            android:rating   = "3"
+                            android:layout_centerInParent="true"
+                            android:padding="2dp"
+                            style="?android:attr/ratingBarStyleSmall"
+                            >
+
+                        </RatingBar>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="180dp"
+                    android:layout_height="135dp"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/muli_bold"
+                    android:background="@drawable/planks"
+                    android:textColor="@color/Black"
+                    android:text="Excercise">
+
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/muli_bold"
+                        android:textColor="@color/Black"
+                        android:text="Squats – Stand talk with your legs distanced out (like the star jumps) now bend your knees lowering your buttocks but not all the way, a bit like you're taking a dump, repeat this exercises as many times as you can so you can get legs as strong as kangaroos or your favourite football star."
+                        android:gravity="center_horizontal">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+                            android:fontFamily="@font/muli_bold"
+                            android:textColor="@color/Black"
+                            android:text="Difficulity Level">
+
+                        </TextView>
+                        <RatingBar
+
+                            android:layout_width="85dp"
+                            android:layout_height="wrap_content"
+                            android:isIndicator="false"
+                            android:layout_marginTop="4dp"
+
+                            android:numStars="5"
+                            android:rating   = "2"
+                            android:layout_centerInParent="true"
+                            android:padding="2dp"
+                            style="?android:attr/ratingBarStyleSmall"
+                            >
+
+                        </RatingBar>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="180dp"
+                    android:layout_height="155dp"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/muli_bold"
+                    android:background="@drawable/squats"
+                    android:textColor="@color/Black"
+                    android:text="Excercise">
+
+                </ImageView>
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>
